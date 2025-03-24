@@ -30,3 +30,40 @@ footer {
     color: white;
     padding: 10px;
 }
+
+.newsletter {
+    background: #f9f9f9;
+    padding: 30px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.faq {
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.faq-item p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
